@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    //titles
+    <string name="app_name">The Weather App</string>
+    <string name="activity_title_weather_details">Weather</string>
+
+
+    //General
+    <string name="btn_text_check_weather">Check Weather</string>
+    <string name="btn_text_retry">Retry</string>
+
+
+    //Copyright
+    <string name="copyright_message">Copyright &#169; Muhammad Haris \n mharis99@gmail.com</string>
+
+    //Exception messages
+    <string name="exception_message_generic">There was an application error</string>
+    <string name="exception_message_no_connection">There is no internet connection</string>
+    <string name="exception_message_weather_not_found">Cannot retrieve weather data. Check your internet
+        connection
+    </string>
+
+
+    //Weather screen
+    <string name="temperature_value">Temperature: %1$s fahrenheit</string>
+    <string name="location_value">Location: %1$s</string>
+    <string name="time_value">Time: %1$s</string>
+
+
+    //Location errors
+    <string name="require_permission">Location permission required</string>
+    <string name="location_not_found">Location not found, Currently loading with Latvia coordinates</string>
+
+    //Menu
+    <string name="save_text">Save</string>
+
+
+    //Latvia coordinates (if location permission is not given or location is not fetched)
+    <string name="dummy_test_latvia_latitude">56.8796</string>
+    <string name="dummy_test_latvia_longitude">24.6032</string>
+
+
+</resources>
